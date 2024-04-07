@@ -1,3 +1,151 @@
 body {
-  font-family: Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  font-family: Verdana, Geneva, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+  width: 80rem; /* Changed to rem */
+  margin: 0 auto;
+  width: 1280px;
+  display: flex;
+}
+
+.navbar__brand {
+  display: flex;
+  color: #335576;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-left: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.navbar__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-right: 5rem;
+}
+
+.navbar__item {
+  font-size: 0.9rem; /* Changed to rem */
+  margin-right: 2rem; /* Changed to rem */
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar__link--active {
+  text-decoration: underline;
+  text-decoration-color: #db7a4e;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.75em;
+  color: black;
+}
+
+.footer {
+  background-color: #fefaf5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__heading {
+  color: #335576;
+  padding-bottom: 1rem;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__info h6 {
+  color: #db7a4e;
+  padding-bottom: 0.5rem;
+}
+
+.contact__info p {
+  font-size: 0.9rem;
+  color: #335576;
+}
+
+.hours__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hours__info__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.hours__info {
+  padding-right: 2rem;
+}
+
+.hours__info h6 {
+  color: #db7a4e;
+  padding-bottom: 0.5rem;
+}
+
+.hours__info p {
+  font-size: 0.9rem;
+  color: #335576;
+}
+
+.hours__heading {
+  color: #335576;
+  padding-bottom: 1rem;
+}
+
+.social__heading {
+  color: #335576;
+  padding-bottom: 1rem;
+}
+
+.social__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.social__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.social__info img {
+  width: 1rem;
+  height: 1rem;
 }
