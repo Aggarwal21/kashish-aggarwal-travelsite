@@ -106,3 +106,188 @@
   height: 22rem;
   object-fit: contain;
 }
+
+.recommendations {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.recommendations__heading {
+  color: #335576;
+  padding-left: 5rem;
+}
+
+.recommendations__card {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+
+.hawaii__card {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.iceland__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.greece__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hawaii__card--description {
+  position: absolute;
+  top: 90%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin: 0;
+  align-self: flex-end;
+  color: white;
+}
+
+.hawaii__card--resize {
+  width: 15rem;
+  height: 22rem;
+  margin: 0 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.iceland__card--description {
+  position: absolute;
+  top: 90%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin: 0;
+  align-self: flex-end;
+  color: white;
+}
+
+.iceland__card--resize {
+  width: 15rem;
+  height: 22rem;
+  margin: 0 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.greece__card--description {
+  position: absolute;
+  top: 90%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin: 0;
+  align-self: flex-end;
+  color: white;
+}
+
+.greece__card--resize {
+  width: 15rem;
+  height: 22rem;
+  margin: 0 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Border with 20% opacity */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); /* Box shadow with specified properties */
+}
+
+.footer {
+  background-color: #fefaf5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__heading {
+  color: #335576;
+  padding-bottom: 1rem;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__info h6 {
+  color: #db7a4e;
+  padding-bottom: 0.5rem;
+}
+
+.contact__info p {
+  font-size: 0.9rem;
+  color: #335576;
+}
+
+.hours__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hours__info__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.hours__info {
+  padding-right: 2rem;
+}
+
+.hours__info h6 {
+  color: #db7a4e;
+  padding-bottom: 0.5rem;
+}
+
+.hours__info p {
+  font-size: 0.9rem;
+  color: #335576;
+}
+
+.hours__heading {
+  color: #335576;
+  padding-bottom: 1rem;
+}
+
+.social__heading {
+  color: #335576;
+  padding-bottom: 1rem;
+}
+
+.social__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.social__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.social__info img {
+  width: 1rem;
+  height: 1rem;
+}
