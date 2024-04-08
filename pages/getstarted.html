@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <nav class="navbar">
+        <a href="../index.html" class="navbar__brand">Travel Site</a>
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="../index.html" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./hawaii.html" class="navbar__link">Hawaii</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./iceland.html" class="navbar__link--active">Iceland</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./greece.html" class="navbar__link">Greece</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <section class="get-started">
+        <h1>Get Started!</h1>
+        <form action="submit_destination.php" method="POST">
+          <label for="destination">Select Destination:</label>
+          <select name="destination" id="destination">
+            <option value="Hawaii">Hawaii</option>
+            <option value="Greece">Greece</option>
+            <option value="Iceland">Iceland</option>
+          </select>
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="contact__container">
+        <h3 class="contact__heading">Contact</h3>
+        <div class="contact__info">
+          <h6>EMAIL</h6>
+          <p>info@travelsite.com</p>
+        </div>
+      </div>
+      <div class="hours__container">
+        <h3 class="hours__heading">Hours</h3>
+        <div class="hours__info__container">
+          <div class="hours__info">
+            <h6>MONDAY - FRIDAY</h6>
+            <p>9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="hours__info">
+            <h6>SATURDAY</h6>
+            <p>10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="hours__info">
+            <h6>SUNDAY</h6>
+            <p>Closed</p>
+          </div>
+        </div>
+      </div>
+      <div class="social__container">
+        <h3 class="social__heading">Social</h3>
+        <div class="social__info">
+          <h6></h6>
+          <img class="instagram" src="../assets/Icons/icon-instagram.png" />
+          <img class="facebook" src="../assets/Icons/icon-facebook.png" />
+          <img class="twitter" src="../assets/Icons/icon-twitter.png" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
